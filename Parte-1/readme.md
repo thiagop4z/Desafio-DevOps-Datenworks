@@ -13,17 +13,8 @@ Codar uma RestAPI hellow-world em qualquer linguagem e configurar sua execucao e
 
 1. [Instalar e iniciar Docker.](https://docs.docker.com/engine/install/)
 
-2. Baixar arquivos deste repositorio:\
-`wget https://github.com/thiagop4z/Desafio-DevOps-Datenworks/archive/refs/heads/main.zip`
-
-3. Descompactar arquivo zip e acessar pasta utilizando o comando:\
-`unzip main.zip; cd Desafio-DevOps-Datenworks-main/Parte-1/`
-
-4. Construir imagem:\
-`docker build -t myapi .`
-
-5. Executar container:\
-`docker run -tdp 3000:3000 myapi`
+2. Executar container:\
+`docker run -tdp 3000:3000 thiagop4z/myapi`
 
 ### Testes
 
