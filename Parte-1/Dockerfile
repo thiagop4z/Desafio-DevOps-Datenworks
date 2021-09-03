@@ -9,20 +9,17 @@ RUN mkdir -p /usr/src/app
 #Set workdir
 WORKDIR /usr/src/app
 
-#Copy package.json
+#Copy package.json to app dir
 COPY package.json /usr/src/app/
-
-#Update npm
-RUN npm install -g npm@latest
 
 #Install dependencies
 RUN npm install
 
-#copy files to workdir
+#Copy files to app dir
 COPY . /usr/src/app
 
 #open port 3000
 EXPOSE 3000
 
 #start api
-CMD ["npm", "start"]
+CMD [ "node", "index.js" ]

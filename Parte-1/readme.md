@@ -15,4 +15,4 @@ Entregaveis:
 
 $ docker build -t myapi .
 
-$ docker run -tdp 3000:3000 myapi /bin/bash
+$ docker run -tdp 3000:3000 myapi
