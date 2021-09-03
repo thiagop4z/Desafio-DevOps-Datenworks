@@ -1,32 +1,29 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bb-demo
+  name: myapi
   namespace: default
 spec:
   replicas: 1
   selector:
     matchLabels:
-      bb: web
   template:
     metadata:
       labels:
-        bb: web
     spec:
       containers:
-      - name: bb-site
-        image: bulletinboard:1.0
+      - name: myapi
+        image: thiagop4z/myapi:latest
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: bb-entrypoint
+  name: myapi
   namespace: default
 spec:
   type: NodePort
   selector:
-    bb: web
   ports:
-  - port: 8080
-    targetPort: 8080
-    nodePort: 30001
+  - port: 3000
+    targetPort: 3000
+    nodePort: 30000
