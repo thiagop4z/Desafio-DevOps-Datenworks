@@ -1,15 +1,21 @@
+# Desafio DevOps Datenworks :: Thiago Paz #
+
 #Docker image to use
 FROM node:latest
 
-#make dir
+#Make dir
 RUN mkdir -p /usr/src/app
 
-#set workdir
+#Set workdir
 WORKDIR /usr/src/app
 
-#copy package.json
+#Copy package.json
 COPY package.json /usr/src/app/
 
+#Update npm
+RUN npm install -g npm@latest
+
+#Install dependencies
 RUN npm install
 
 #copy files to workdir
