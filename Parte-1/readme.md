@@ -32,6 +32,6 @@ Algumas alternativas para teste da API:
 1. Acessar a URL da API via navegador (Exemplo: http://localhost:3000/api)
 
 2. Executar o comando:\
-`curl http://52.90.70.203:3000/api`
+`curl http://localhost:3000/api`
 
-3. Utilizar a ferramenta [Postman](https://web.postman.co/).
+3. Utilizar a ferramenta [Postman](https://web.postman.co/) (a API precisa estar online).
