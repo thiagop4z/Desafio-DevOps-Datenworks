@@ -12,7 +12,7 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 
 ### Comandos para execução no serviço no Minikube
 
-1. `kubectl apply -f myapi.yaml``
+1. `kubectl apply -f myapi.yaml`
 
 ### Testes
 
