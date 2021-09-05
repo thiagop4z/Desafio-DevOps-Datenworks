@@ -2,7 +2,7 @@
 
 Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 1) e configurar sua execução em K8s(minikube):
 
-**Entregaveis:**
+**Entregáveis:**
 
 - [x] Codigo da API (na Parte-1)
 - [x] Dockerfile (na Parte-1)
