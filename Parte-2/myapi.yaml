@@ -7,9 +7,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
+      my: api
   template:
     metadata:
       labels:
+        my: api
     spec:
       containers:
       - name: myapi
@@ -23,6 +25,7 @@ metadata:
 spec:
   type: NodePort
   selector:
+    my: api
   ports:
   - port: 3000
     targetPort: 3000
