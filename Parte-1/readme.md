@@ -1,8 +1,8 @@
 ## Desafio DevOps Datenworks - Parte 1
 
-Codar uma RestAPI hellow-world em qualquer linguagem e configurar sua execucao em container.
+Codar uma RestAPI hellow-world em qualquer linguagem e configurar sua execução em container.
 
-**Entregaveis:**
+**Entregáveis:**
 
 - [x] Codigo da API
 - [x] Dockerfile
