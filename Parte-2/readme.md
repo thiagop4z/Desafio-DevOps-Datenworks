@@ -16,7 +16,7 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 
 ### Testes
 
-Algumas alternativas para teste da API:
+Algumas alternativas para teste da API:\
 Obs.: Se necessário, substituir "localhost" pelo ip do host minikube.
 
 1. Acessar a URL da API via navegador (Exemplo: [http://localhost:30000/api](http://localhost:30000/api)).
