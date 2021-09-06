@@ -4,24 +4,32 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 
 **Entregáveis:**
 
-- [x] Código da API (na Parte-1)
-- [ ]Terraform para execução na AWS
-- [ ] Considerar todos os resources necessários para a subida de uma AWS Lambda apenas para teste (API gateway será um diferencial)
-- [ ] Comandos para executar o Terraform
-- [ ] Explicação de como testar a subida e execução da lambda
+- [x] Código da API
+- [x]Terraform para execução na AWS
+- [x] Considerar todos os resources necessários para a subida de uma AWS Lambda apenas para teste (API gateway será um diferencial)
+- [x] Comandos para executar o Terraform
+- [x] Explicação de como testar a subida e execução da lambda
 
 ### Comandos para execução do Terraform
 
-1. `kubectl apply -f myapi.yaml`
+1. [Instalar Terraform e AWS CLI](https://learn.hashicorp.com/terraform)
+
+2. Clonar este repositorio
+
+3. Acessar pasta Parte-3\
+`cd Desafio-DevOps-Datenworks/Parte-3`
+
+4. Executar comando\
+`terraform init && terraform apply`
+
+5. Confirmar execucao digitando "yes"
 
 ### Testes
 
-Algumas alternativas para teste da API:\
-Obs.: Se necessário, substituir "localhost" pelo ip do host minikube.
+1. Acessar a URL exibida no campo base_url adicionando /hello ao final. Exemplo:
+`https://uxddlh1hq0.execute-api.us-east-1.amazonaws.com/serverless_lambda_stage/hello`
 
-1. Acessar a URL da API via navegador (Exemplo: [http://localhost:30000/api](http://localhost:30000/api)).
+ou
 
-2. Executar o comando:
-`curl http://localhost:30000/api`
-
-3. Utilizar a ferramenta [Postman](https://web.postman.co/) (a API precisa estar online).
+2. executar comando "curl base_url/hello", substituindo a palavra base_url pela URL retornada pelo Terraform. Exemplo:
+`curl https://uxddlh1hq0.execute-api.us-east-1.amazonaws.com/serverless_lambda_stage/hello`
