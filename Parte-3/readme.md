@@ -5,7 +5,7 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 **Entregáveis:**
 
 - [x] Código da API
-- [x]Terraform para execução na AWS
+- [x] Terraform para execução na AWS
 - [x] Considerar todos os resources necessários para a subida de uma AWS Lambda apenas para teste (API gateway será um diferencial)
 - [x] Comandos para executar o Terraform
 - [x] Explicação de como testar a subida e execução da lambda
@@ -22,7 +22,7 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 4. Executar comando\
 `terraform init && terraform apply`
 
-5. Confirmar execucao digitando "yes"
+5. Confirmar execução digitando "yes"
 
 ### Testes
 
