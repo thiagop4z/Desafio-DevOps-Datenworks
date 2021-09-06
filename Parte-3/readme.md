@@ -26,10 +26,10 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 
 ### Testes
 
-1. Acessar a URL exibida no campo base_url adicionando /hello ao final. Exemplo:
+1. Acessar a URL exibida no campo base_url adicionando /hello ao final. Exemplo:\
 `https://uxddlh1hq0.execute-api.us-east-1.amazonaws.com/serverless_lambda_stage/hello`
 
 ou
 
-2. executar comando "curl base_url/hello", substituindo a palavra base_url pela URL retornada pelo Terraform. Exemplo:
+2. executar comando "curl base_url/hello", substituindo a palavra base_url pela URL retornada pelo Terraform. Exemplo:\
 `curl https://uxddlh1hq0.execute-api.us-east-1.amazonaws.com/serverless_lambda_stage/hello`
