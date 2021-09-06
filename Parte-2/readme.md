@@ -13,7 +13,10 @@ Codar uma RestAPI hellow-world em qualquer linguagem (pode ser a mesma da Parte 
 ### Comandos para execução no serviço no Minikube
 
 1. [Instalar Docker e Minikube](https://www.bogotobogo.com/DevOps/Docker/Docker-Kubernetes-Minikube-install-on-AWS-EC2.php)
-2. Executar comando:\
+2. Clonar este repositório
+3. Acessar pasta Parte-2\
+`cd Desafio-DevOps-Datenworks/Parte-2`
+4. Executar comando:\
 `kubectl apply -f myapi.yaml`
 
 ### Testes
